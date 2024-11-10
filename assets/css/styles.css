@@ -1,6 +1,8 @@
 /*google font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --header-height: 3.5rem; /*56px*/
@@ -203,7 +205,7 @@ body.dark-theme{
 }
 
 .nav__logo{
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
   letter-spacing: -1px;
   display: inline-flex;
@@ -721,7 +723,7 @@ body.dark-theme{
   align-items: center;
   column-gap: .5rem;
   color: var(--title-color);
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
   letter-spacing: -1px;
   margin-bottom: var(--mb-2-5);

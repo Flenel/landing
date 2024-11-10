@@ -1,0 +1,10 @@
+.Catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* Adjust background color if needed */
+    margin-left:6px;
+}
+
+

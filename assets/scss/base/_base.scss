@@ -17,11 +17,11 @@ textarea{
     font-size: var(--normal-font-size);
 }
 
-body{
+body {
     margin: var(--header-height) 0 0 0;
-    background-color: var(--body-color);
+    background-color: var(--body-color); /* Uses #EBEDDF as background */
     color: var(--text-color);
-    transition: .4s; // For animation dark mode
+    transition: .4s;
 }
 
 button{
